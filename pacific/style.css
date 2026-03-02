@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* header style */
+header {
+    height: 120px;
+    background-color: #002171;
+    color:#FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:120px;
+}
+
+header:a {
+    text-decoration: none;
+}
+
+header a:link {
+    color:#FFFFFF ;
+    }
+
+    header a:visited {
+    color:#FFFFFF ;
+    }
+
+    header a:hover {
+    color:#90c7e3 ;
+    }
+
+/* nav style */
+nav {
+    position: fixed;
+    color: #002171;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    word-spacing: 1em;
+    float: left;
+    width: 160px;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+/* nav a:link style */
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #5c7fa3;
+}
+
+/* nav a:visited style */
+nav a:visited {
+    color: #344873;
+}
+
+/* nav a:hover style */
+nav a:hover {
+    color: #a52a2a;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+/* a style */
+a { 
+    text-decoration: none;
+}
+
+/* h1 style */
+h1 {
+    font-size: 3em;;
+    color:#ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: .5em;
+    letter-spacing: .25em;
+}
+
+/* h2 style */
+h2 {
+    color: #1976d2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* h3 style */
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* body style */
+body {
+    color:#666666;
+    background-color:#eaeaea;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90c7e3);
+    
+}
+
+/* paragraph style */
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* dt style */
+dt {
+    color: #002171;
+    font-weight: bold;
+}
+
+
+/* footer style */
+footer {
+    font-size: .70em;
+    text-align: center;
+    padding: 1em;
+    background-color: #ffffff;
+    margin-left: 170px;
+    font-style: italic;
+}
+
+/* main style */
+main {
+    background-color: #ffffff;
+    padding-left: 2em;
+    padding-right: 2em;
+    display:block;
+    margin-left: 170px;
+    overflow: auto;
+}
+
+/* head style */
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* wrapper id style */
+#wrapper {
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px 3px #777;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90c7e3);
+
+}
+
+/* resort class style */
+.resort {
+    color: #1976d2;
+    font-size: 1.2em;
+}
+
+
+/* homehero id style */
+#homehero {
+    height: 300px;
+    background-image: url(photos/coast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 170px;
+}
+
+/* yurthero id style */
+#yurthero {
+     height: 300px;
+     background-image: url(photos/yurt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 170px;
+}
+
+/* trailhero id style */
+#trailhero {
+    height: 300px;
+    background-image: url(photos/trail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 170px;
+}
